@@ -1,0 +1,52 @@
+.parent {
+    margin: 1em;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 1fr 1fr;
+    grid-template-rows: 2fr 9px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+ .imagen
+ {
+    background-image: url(/assets/6.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+.centrar
+{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+ .titulo-td
+ {
+     font-size: 22px;
+ }
+
+ .formulario
+{
+    padding: 1.5rem;
+    background-color: white;
+
+}
+
+.form-label
+{
+
+}
+
+input,textarea{
+    margin: 0.2em;
+    margin-left: 1em;
+}
+
+.mapa
+{
+    
+}

@@ -1,0 +1,43 @@
+<app-menu></app-menu>
+<main class="parent">
+    <div></div>
+    <div class="imagen rounded"></div>
+    <div class="formulario rounded shadow">
+        <form action="">
+            <table>
+                <td class="titulo-td text-center py-1" colspan="2">Formulario  de contacto <i class="fab fa-wpforms"></i></td>
+                <tr>
+                    <td class="centrar"><label for="nombre" class="form-label"> Nombre: </label></td>
+                    <td ><input type="text" class="form-control" name="nombre" placeholder="Ingrese el nombre"><br></td>
+                </tr>
+                <tr>
+                    <td class="centrar"><label for="apellido"  class="form-label">Apellido: </label></td>
+                    <td><input type="text" class="form-control" name="apellido" placeholder="Ingrese el apellido"><br></td>
+                </tr>
+                <tr>
+                    <td class="centrar"><label for="edad" class="form-label">Edad: </label></td>
+                    <td><input type="number" class="form-control" name="edad" placeholder="Ingrese la edad"><br></td>
+                </tr>
+                <tr>
+                    <td class="centrar"><label for="correo" class="form-label">Correo: </label></td>
+                    <td><input type="email" class="form-control" name="correo" placeholder="Ingrese el correo"><br></td>
+                </tr>
+                <tr>
+                    <td class="centrar"><label for="descripcion" class="form-label">Descripción: </label></td>
+                    <td><textarea name="descripcion" class="form-control" id="descripcion" cols="30" rows="5"></textarea> <br></td>
+                </tr>
+                <tr><td></td><td><div class="d-grid text-center">
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                  </div></td></tr>
+            </table>         
+        </form>
+    </div>
+    <div class="mapa rounded">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7888501520106!2d-78.5076973852994!3d-0.22021799983932502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59989d965689b%3A0x9ee2646003115e4b!2sSan%20Blas%2C%20Quito%20170136!5e0!3m2!1ses!2sec!4v1637896220511!5m2!1ses!2sec"
+            width="600" height="570" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+    <div></div>
+</main>
+<app-footer></app-footer>

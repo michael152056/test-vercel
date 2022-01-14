@@ -1,0 +1,52 @@
+/* Variables globales */
+* {
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box !important;
+  }
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  h5{
+      font-size: 1vw;
+  }
+/* Barra de navegación */
+
+.navbar-brand img
+{
+    margin-left: 10px;
+    width: 30px;
+}
+
+.collapse
+{
+    text-align: center !important;
+    justify-content: center !important;
+    position: relative;
+    margin: 0;
+    align-items: center;
+}
+
+a
+{
+    color: white !important;
+    font-size: 1em;
+    margin-left: 2em;
+}
+
+.navbar
+{
+    background-color: rgb(30, 45, 59) !important;
+}
+
+.navbar-brand img
+{
+    width: 13em;
+}
+
